@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>mobeicanyue</title>
-    <meta name="author" content="mobeicanyue">
-    <meta name="keywords" content="mobeicanyue, 漠北残月, technology, daily, share">
-    <meta name="description" content="welcome to the blog of mobeicanyue">
+    <meta name="author" content="mobeicanyue" />
+    <meta
+      name="keywords"
+      content="mobeicanyue, 漠北残月, technology, daily, share"
+    />
+    <meta name="description" content="welcome to the blog of mobeicanyue" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Rubik:300,500,700"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="img/favicon.jpg" />
     <style>
       body {
         font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -72,8 +75,7 @@
       You can follow my code repository on
       <a href="https://github.com/mobeicanyue" target="_blank">Github</a>, where
       my project code is located. If you understand Chinese, feel free to check
-      out my
-      <a href="https://blog.ovvv.top" target="_blank">Blog</a>. Loving
+      out my <a href="https://blog.ovvv.top" target="_blank">Blog</a>. Loving
       free, open source software and system, but have to use Windows for gaming
       :)
     </p>
@@ -84,26 +86,6 @@
       And like to admire kpop beauties in my spare time 💃
     </p>
 
-    <p align="right"><a href="javascript:void(0);" target="_self" onclick="loadChineseContent()">中文</a> | EN</p>
+    <p align="right"><a href="./zh.html" target="_self">中文</a> | EN</p>
   </body>
-  <script>
-    function loadChineseContent() {
-      // 使用 Fetch API 获取 index_cs.html 的内容
-      fetch('./index_cs.html')
-        .then(response => response.text())
-        .then(html => {
-          // 将 index_cs.html 的内容替换当前页面的内容
-          document.body.innerHTML = html;
-        })
-        .catch(error => console.error('Error fetching content:', error));
-    }
-    function loadEnglishContent() {
-      fetch('./index.html')
-        .then(response => response.text())
-        .then(html => {
-          document.body.innerHTML = html;
-        })
-        .catch(error => console.error('Error fetching content:', error));
-    }
-  </script>
 </html>
