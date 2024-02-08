@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.www.ovvv.top</loc>
+		<loc>https://www.ovvv.top</loc>
 		<priority>1.00</priority>
 		<changefreq>monthly</changefreq>
 		<lastmod>2024-02-06</lastmod>
 	</url>
 	<url>
-		<loc>https://www.www.ovvv.top/zh-cn.html</loc>
-		<priority>0.60</priority>
-		<changefreq>monthly</changefreq>
-		<lastmod>2024-02-06</lastmod>
-	</url>
-	<url>
-		<loc>https://www.www.ovvv.top/naver9c0919565088c4385190538d28dffbdd.html</loc>
+		<loc>https://www.ovvv.top/zh-cn.html</loc>
 		<priority>0.50</priority>
+		<changefreq>monthly</changefreq>
 		<lastmod>2024-02-06</lastmod>
 	</url>
 </urlset>
